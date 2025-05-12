@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+}
+
+.tabs {
+  margin-bottom: 15px;
+}
+.tabs button {
+  background-color: #007BFF;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.tabs button:hover {
+  background-color: #0056b3;
+}
+
+.panel {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  border-left: 5px solid #007BFF;
+  padding: 15px;
+  box-shadow: 0 0 5px #ccc;
+  flex: 1;
+  min-width: 180px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.card p {
+  font-size: 1.5rem;
+  margin: 5px 0 0;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
