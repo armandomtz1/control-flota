@@ -1,4 +1,5 @@
-const URL_FISICO = "https://script.google.com/macros/s/AKfycbyMLXIYHlO4j8WiUg8IkC65jcbDEBxKyyT0am55nRtf7uq2I_iVS4_7Nqd4onnXMjtU/exec";
+const URL_FISICO = "https://script.google.com/macros/s/AKfycbx.../exec";
+
 const URL_CONTAMINANTES = "https://script.google.com/macros/s/AKfycbyXXXXXXXXXXX_CONTAMINANTES/exec"; // Reemplaza por tu URL
 
 let datosGlobal = [];
